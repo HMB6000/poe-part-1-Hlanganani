@@ -21,8 +21,8 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Restore dependencies
-      run: dotnet restore PART 1 POE.csproj
+      run: dotnet restore "PART 1 POE.csproj"
     - name: Build
-      run: dotnet build --no-restore PART 1 POE.csproj
+      run: dotnet build --no-restore "PART 1 POE.csproj"
     - name: Test
-      run: dotnet test --no-build --verbosity normal PART 1 POE.csproj
+      run: dotnet test --no-build --verbosity normal "PART 1 POE.csproj"
