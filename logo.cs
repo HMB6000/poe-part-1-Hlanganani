@@ -2,7 +2,7 @@
 {
     internal class Logo
     {
-        public logo()
+        public Logo()
         {
         }
     }
